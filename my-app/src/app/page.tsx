@@ -9,6 +9,7 @@ import {
 } from "@/components/ui/card";
 import { ModeToggle } from "@/components/ui/toggle_theme";
 import { Button } from "@/components/ui/button";
+import Image from "next/image"; // Import Image component from Next.js
 import React from "react";
 
 const interests = [
@@ -37,19 +38,19 @@ export default function Home() {
       <div className="w-1/5">
         <Card>
           <CardHeader>
-            <CardTitle>Hi i'm Muhammad Mannan 👋</CardTitle>
+            <CardTitle>Hi i&apos;m Muhammad Mannan 👋</CardTitle>
             <CardDescription>CSSE Student @ University of Washington Bothell</CardDescription>
           </CardHeader>
           <CardContent>
 
             <div className="flex flex-col items-center">
-              <img src="https://avatars.githubusercontent.com/u/25876150?v=4" alt="mannan" className="w-1/2 h-1/2 rounded-full" />
+              <img src="https://avatars.githubusercontent.com/u/25876150?v=4" alt="mannan" width={200} height={200} className="rounded-full" />
             </div>
 
             
 
             <p>
-              I'm a computer science and software engineering student at the University of Washington.
+              I&apos;m a computer science and software engineering student at the University of Washington.
               I am passionate about creating software and solving problems with data driven solutions.
             </p>
 
