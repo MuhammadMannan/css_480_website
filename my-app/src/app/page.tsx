@@ -10,6 +10,7 @@ import {
 } from "@/components/ui/card";
 import { ModeToggle } from "@/components/ui/toggle_theme";
 import { Menubar, MenubarMenu, MenubarTrigger } from "@/components/ui/menubar";
+import Link from "next/link"; // Import Link component from Next.js
 import React from "react";
 
 const interests = [
@@ -41,16 +42,12 @@ export default function Home() {
             <MenubarTrigger>Home</MenubarTrigger>
           </MenubarMenu>
           <MenubarMenu>
-            <MenubarTrigger>About</MenubarTrigger>
-          </MenubarMenu>
-          <MenubarMenu>
-            <MenubarTrigger>Projects</MenubarTrigger>
-          </MenubarMenu>
-          <MenubarMenu>
-            <MenubarTrigger>Contact</MenubarTrigger>
+            {/* Wrap the "Things To Read" trigger with Link */}
+            <MenubarTrigger>
+              <Link href="/thingstoread">Things To Read</Link>
+            </MenubarTrigger>
           </MenubarMenu>
         </Menubar>
-
         <ModeToggle />
       </div>
       <div className="w-2/5">
