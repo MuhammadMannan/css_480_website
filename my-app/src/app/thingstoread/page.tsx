@@ -1,3 +1,13 @@
+"use client";
+import { Button } from "@/components/ui/button";
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardFooter,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card";
 import { ModeToggle } from "@/components/ui/toggle_theme";
 import { Menubar, MenubarMenu, MenubarTrigger } from "@/components/ui/menubar";
 import Link from "next/link"; // Import Link component from Next.js

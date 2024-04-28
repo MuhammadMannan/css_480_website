@@ -42,7 +42,6 @@ export default function Home() {
             <MenubarTrigger>Home</MenubarTrigger>
           </MenubarMenu>
           <MenubarMenu>
-            {/* Wrap the "Things To Read" trigger with Link */}
             <Link href="/thingstoread">
               <MenubarTrigger>Things To Read</MenubarTrigger>
             </Link>
