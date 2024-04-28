@@ -9,13 +9,13 @@ export default function ThingsToReadPage() {
       <div className="absolute top-0 right-0 m-4 flex items-center space-x-4">
         <Menubar>
           <MenubarMenu>
-            <MenubarTrigger>Home</MenubarTrigger>
+            <Link href="/Home">
+              <MenubarTrigger>Home</MenubarTrigger>
+            </Link>
           </MenubarMenu>
           <MenubarMenu>
             {/* Wrap the "Things To Read" trigger with Link */}
-            <MenubarTrigger>
-              <Link href="/thingstoread">Things To Read</Link>
-            </MenubarTrigger>
+            <MenubarTrigger>Things To Read</MenubarTrigger>
           </MenubarMenu>
         </Menubar>
         <ModeToggle />
