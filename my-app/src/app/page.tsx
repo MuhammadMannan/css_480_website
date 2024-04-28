@@ -79,12 +79,11 @@ export default function Home() {
                 ))}
               </ul>
             </div>
-            <div className="ml-6">
+            <div className="ml-10">
               <img
                 src="https://avatars.githubusercontent.com/u/25876150?v=4"
                 alt="mannan"
-                width={1000} // Adjust width as needed
-                height={1000} // Adjust height as needed
+                width={900} // Adjust width as needed
                 className="rounded-sm"
               />
             </div>
