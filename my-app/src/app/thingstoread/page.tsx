@@ -15,7 +15,7 @@ import React from "react";
 import { HoverEffect } from "@/components/ui/card-hover-effect";
 
 export default function ThingsToReadPage() {
-  const projects = [
+  const Projects = [
     {
       title: "Why is it so difficult to play Fallout games on PC right now?",
       description:
@@ -98,7 +98,7 @@ export default function ThingsToReadPage() {
       </div>
 
       <div className="px-10">
-        <HoverEffect items={projects} />
+        <HoverEffect items={Projects} />
       </div>
     </div>
   );
