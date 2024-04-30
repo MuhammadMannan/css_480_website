@@ -1,5 +1,5 @@
 "use client";
-import { Button } from "@/components/ui/button";
+//import { Button } from "@/components/ui/button";
 import {
   Card,
   CardContent,
@@ -8,8 +8,9 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
+import { Menubar } from "@/components/ui/menubar";
+import { Button } from "@/components/ui/moving-border";
 import { ModeToggle } from "@/components/ui/toggle_theme";
-import { Menubar, MenubarMenu, MenubarTrigger } from "@/components/ui/menubar";
 import Link from "next/link"; // Import Link component from Next.js
 import React from "react";
 
@@ -84,7 +85,13 @@ export default function Home() {
             </div>
           </CardContent>
           <CardFooter>
-            <Button onClick={reorderList}>Reorder</Button>
+            <Button
+              className="bg-white dark:bg-slate-900 text-black dark:text-white border-neutral-200 dark:border-slate-800"
+              borderRadius="1.25rem"
+              onClick={reorderList}
+            >
+              Reorder
+            </Button>
           </CardFooter>
         </Card>
       </div>
