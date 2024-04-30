@@ -38,14 +38,12 @@ export default function Home() {
     <div className="relative w-full flex justify-center items-center flex-col min-h-screen">
       <div className="absolute top-0 right-0 m-4 flex items-center space-x-4">
         <Menubar>
-          <MenubarMenu>
-            <MenubarTrigger>Home</MenubarTrigger>
-          </MenubarMenu>
-          <MenubarMenu>
-            <Link href="/thingstoread">
-              <MenubarTrigger>Things To Read</MenubarTrigger>
-            </Link>
-          </MenubarMenu>
+          <div className="flex items-center m-3 space-x-5 text-sm">
+            <div>Home</div>
+            <div>
+              <Link href="/thingstoread">Things To Read</Link>
+            </div>
+          </div>
         </Menubar>
         <ModeToggle />
       </div>
