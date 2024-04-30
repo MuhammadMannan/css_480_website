@@ -103,3 +103,66 @@ export default function ThingsToReadPage() {
     </div>
   );
 }
+
+export const projects = [
+  {
+    title: "Why is it so difficult to play Fallout games on PC right now?",
+    description:
+      "Delving into modding, the author revives Fallout: New Vegas on PC with the help of a comprehensive guide, amidst disappointments over Bethesda's lack of support for older titles.",
+    link: "https://www.polygon.com/24141738/fallout-games-pc-difficult-in-2024-new-vegas-mods",
+  },
+  {
+    title: "Warhammer 40K’s Dark Angels are enjoying a golden age of new lore",
+    description:
+      "After decades of dormancy, Lion El'Jonson's resurrection sparks intrigue within the Dark Angels faction, setting the stage for a narrative shift and potential conflicts in the Warhammer 40,000 universe.",
+    link: "https://www.polygon.com/tabletop-games/24046814/warhammer-40k-dark-angels-lore-codex-supplement-lion-risen",
+  },
+  {
+    title: "Google",
+    description:
+      "A multinational technology company that specializes in Internet-related services and products.",
+    link: "https://google.com",
+  },
+  {
+    title: "Meta",
+    description:
+      "A technology company that focuses on building products that advance Facebook's mission of bringing the world closer together.",
+    link: "https://meta.com",
+  },
+  {
+    title: "Amazon",
+    description:
+      "A multinational technology company focusing on e-commerce, cloud computing, digital streaming, and artificial intelligence.",
+    link: "https://amazon.com",
+  },
+  {
+    title: "Microsoft",
+    description:
+      "A multinational technology company that develops, manufactures, licenses, supports, and sells computer software, consumer electronics, personal computers, and related services.",
+    link: "https://microsoft.com",
+  },
+  {
+    title: "Microsoft",
+    description:
+      "A multinational technology company that develops, manufactures, licenses, supports, and sells computer software, consumer electronics, personal computers, and related services.",
+    link: "https://microsoft.com",
+  },
+  {
+    title: "Microsoft",
+    description:
+      "A multinational technology company that develops, manufactures, licenses, supports, and sells computer software, consumer electronics, personal computers, and related services.",
+    link: "https://microsoft.com",
+  },
+  {
+    title: "Microsoft",
+    description:
+      "A multinational technology company that develops, manufactures, licenses, supports, and sells computer software, consumer electronics, personal computers, and related services.",
+    link: "https://microsoft.com",
+  },
+  {
+    title: "Microsoft",
+    description:
+      "A multinational technology company that develops, manufactures, licenses, supports, and sells computer software, consumer electronics, personal computers, and related services.",
+    link: "https://microsoft.com",
+  },
+];
