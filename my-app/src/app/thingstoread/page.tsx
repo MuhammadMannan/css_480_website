@@ -18,15 +18,12 @@ export default function ThingsToReadPage() {
     <div className="relative w-full flex justify-center items-center flex-col min-h-screen">
       <div className="absolute top-0 right-0 m-4 flex items-center space-x-4">
         <Menubar>
-          <MenubarMenu>
-            <Link href="/Home">
-              <MenubarTrigger>Home</MenubarTrigger>
-            </Link>
-          </MenubarMenu>
-          <MenubarMenu>
-            {/* Wrap the "Things To Read" trigger with Link */}
-            <MenubarTrigger>Things To Read</MenubarTrigger>
-          </MenubarMenu>
+          <div className="flex items-center m-3 space-x-5 text-sm">
+            <div>
+              <Link href="/Home">Home</Link>
+            </div>
+            <div>Things To Read</div>
+          </div>
         </Menubar>
         <ModeToggle />
       </div>
