@@ -75,10 +75,12 @@ export default function Home() {
                 ))}
               </ul>
             </div>
-            <div className="ml-6 w-full">
+            <div className="ml-6 ">
               <Image
                 src="https://avatars.githubusercontent.com/u/25876150?v=4"
                 alt="mannan"
+                width={900}
+                height={900}
                 // Adjust height as needed
                 className="rounded-sm"
               />
