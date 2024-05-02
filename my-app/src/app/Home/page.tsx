@@ -13,6 +13,7 @@ import { Button } from "@/components/ui/button";
 import { ModeToggle } from "@/components/ui/toggle_theme";
 import Link from "next/link"; // Import Link component from Next.js
 import React from "react";
+import Image from "next/image";
 
 const interests = [
   "Photography 📸",
@@ -75,7 +76,7 @@ export default function Home() {
               </ul>
             </div>
             <div className="ml-6 w-full">
-              <img
+              <Image
                 src="https://avatars.githubusercontent.com/u/25876150?v=4"
                 alt="mannan"
                 // Adjust height as needed
