@@ -1,5 +1,5 @@
 "use client";
-import { Button } from "@/components/ui/button";
+//import { Button } from "@/components/ui/button";
 import {
   Card,
   CardContent,
@@ -8,8 +8,9 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
+import { Menubar } from "@/components/ui/menubar";
+import { Button } from "@/components/ui/button";
 import { ModeToggle } from "@/components/ui/toggle_theme";
-import { Menubar, MenubarMenu, MenubarTrigger } from "@/components/ui/menubar";
 import Link from "next/link"; // Import Link component from Next.js
 import React from "react";
 
@@ -38,15 +39,12 @@ export default function Home() {
     <div className="relative w-full flex justify-center items-center flex-col min-h-screen">
       <div className="absolute top-0 right-0 m-4 flex items-center space-x-4">
         <Menubar>
-          <MenubarMenu>
-            <MenubarTrigger>Home</MenubarTrigger>
-          </MenubarMenu>
-          <MenubarMenu>
-            {/* Wrap the "Things To Read" trigger with Link */}
-            <Link href="/thingstoread">
-              <MenubarTrigger>Things To Read</MenubarTrigger>
-            </Link>
-          </MenubarMenu>
+          <div className="flex items-center m-3 space-x-5 text-sm">
+            <div>Home</div>
+            <div>
+              <Link href="/thingstoread">Things To Read</Link>
+            </div>
+          </div>
         </Menubar>
         <ModeToggle />
       </div>
@@ -59,7 +57,7 @@ export default function Home() {
             </CardDescription>
           </CardHeader>
           <CardContent className="flex items-center">
-            <div className="space-y-3">
+            <div>
               <p>
                 I&apos;m a computer science and software engineering student at
                 the University of Washington. I am passionate about creating
@@ -76,11 +74,11 @@ export default function Home() {
                 ))}
               </ul>
             </div>
-            <div className="ml-10">
+            <div className="ml-6 w-full">
               <img
                 src="https://avatars.githubusercontent.com/u/25876150?v=4"
                 alt="mannan"
-                width={900} // Adjust width as needed
+                // Adjust height as needed
                 className="rounded-sm"
               />
             </div>
