@@ -9,7 +9,7 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 import { Menubar } from "@/components/ui/menubar";
-import { Button } from "@/components/ui/moving-border";
+import { Button } from "@/components/ui/button";
 import { ModeToggle } from "@/components/ui/toggle_theme";
 import Link from "next/link"; // Import Link component from Next.js
 import React from "react";
@@ -57,7 +57,7 @@ export default function Home() {
             </CardDescription>
           </CardHeader>
           <CardContent className="flex items-center">
-            <div className="space-y-3">
+            <div>
               <p>
                 I&apos;m a computer science and software engineering student at
                 the University of Washington. I am passionate about creating
@@ -74,24 +74,17 @@ export default function Home() {
                 ))}
               </ul>
             </div>
-            <div className="ml-6">
+            <div className="ml-6 w-full">
               <img
                 src="https://avatars.githubusercontent.com/u/25876150?v=4"
                 alt="mannan"
-                width={1000} // Adjust width as needed
-                height={1000} // Adjust height as needed
+                // Adjust height as needed
                 className="rounded-sm"
               />
             </div>
           </CardContent>
           <CardFooter>
-            <Button
-              className="bg-white dark:bg-slate-900 text-black dark:text-white border-neutral-200 dark:border-slate-800"
-              borderRadius="1.25rem"
-              onClick={reorderList}
-            >
-              Reorder
-            </Button>
+            <Button onClick={reorderList}>Reorder</Button>
           </CardFooter>
         </Card>
       </div>
