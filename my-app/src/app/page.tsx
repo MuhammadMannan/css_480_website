@@ -82,7 +82,6 @@ export default function Home() {
                 alt="mannan"
                 width={1000}
                 height={1000}
-                // Adjust height as needed
                 className="rounded-sm"
               />
             </div>
