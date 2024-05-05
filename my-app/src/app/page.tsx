@@ -1,10 +1,8 @@
 "use client";
-//import { Button } from "@/components/ui/button";
 import {
   Card,
   CardContent,
   CardDescription,
-  CardFooter,
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
@@ -14,6 +12,7 @@ import { ModeToggle } from "@/components/ui/toggle_theme";
 import Link from "next/link"; // Import Link component from Next.js
 import React from "react";
 import Image from "next/image";
+import { Separator } from "@/components/ui/separator";
 
 const interests = [
   "Photography 📸",
@@ -53,11 +52,12 @@ export default function Home() {
         <Card>
           <CardHeader>
             <CardTitle>Hi i&apos;m Muhammad Mannan 👋</CardTitle>
-            <CardDescription>
+            <Separator />
+            <CardDescription className="text-[#333E4D] dark:text-[#ACB8C8]">
               CSSE Student @ University of Washington Bothell
             </CardDescription>
           </CardHeader>
-          <CardContent className="flex items-center">
+          <CardContent className="flex ">
             <div>
               <p>
                 I&apos;m a computer science and software engineering student at
@@ -65,30 +65,28 @@ export default function Home() {
                 software and solving problems with data-driven solutions.
               </p>
 
-              <h4 className="scroll-m-20 text-xl font-semibold tracking-tight">
+              <h4 className="scroll-m-20 text-xl font-semibold tracking-tight mt-5">
                 Here are some of my interests!
               </h4>
 
-              <ul className="my-6 ml-6 list-disc [&>li]:mt-2">
+              <ul className="mb-5 ml-6 list-disc [&>li]:mt-2">
                 {currentInterests.map((interest, index) => (
                   <li key={index}>{interest}</li>
                 ))}
               </ul>
+              <Button onClick={reorderList}>Reorder</Button>
             </div>
-            <div className="ml-6 ">
+            <div className="flex justify-center items-center">
               <Image
                 src="https://avatars.githubusercontent.com/u/25876150?v=4"
                 alt="mannan"
-                width={900}
-                height={900}
+                width={1000}
+                height={1000}
                 // Adjust height as needed
                 className="rounded-sm"
               />
             </div>
           </CardContent>
-          <CardFooter>
-            <Button onClick={reorderList}>Reorder</Button>
-          </CardFooter>
         </Card>
       </div>
     </div>
