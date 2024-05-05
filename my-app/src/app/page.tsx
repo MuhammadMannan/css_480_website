@@ -53,7 +53,7 @@ export default function Home() {
         <Card>
           <CardHeader>
             <CardTitle>Hi i&apos;m Muhammad Mannan 👋</CardTitle>
-            <CardDescription className="text-[#95A3B6]">
+            <CardDescription>
               CSSE Student @ University of Washington Bothell
             </CardDescription>
           </CardHeader>

@@ -76,7 +76,7 @@ export default function ThingsToReadPage() {
         <Menubar>
           <div className="flex items-center m-3 space-x-5 text-sm">
             <div>
-              <Link href="/Home">Home</Link>
+              <Link href="/">Home</Link>
             </div>
             <div>Things To Read</div>
           </div>
