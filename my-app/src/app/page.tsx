@@ -51,10 +51,7 @@ export default function Home() {
       <div className="w-2/5">
         <Card>
           <CardHeader>
-            <CardTitle>
-              Hi i&apos;m <br />
-              Muhammad Mannan 👋
-            </CardTitle>
+            <CardTitle>Hi i&apos;m Muhammad Mannan 👋</CardTitle>
             <Separator />
             <CardDescription className="text-[#333E4D] dark:text-[#ACB8C8]">
               CSSE Student @ University of Washington Bothell
