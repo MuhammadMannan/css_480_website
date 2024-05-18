@@ -5,6 +5,7 @@ const nextConfig = {
       "avatars.githubusercontent.com",
       "upload.wikimedia.org",
       "cdn.vox-cdn.com",
+      "github.com",
     ],
   },
 };
