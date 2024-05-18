@@ -23,7 +23,8 @@ type CarouselData = {
 
 const carouselData: CarouselData[] = [
   {
-    image: "https://avatars.githubusercontent.com/u/25876150?v=4",
+    image:
+      "https://github.com/MuhammadMannan/css_480_website/blob/main/my-app/src/assets/image1.png?raw=true",
     heading: "Choose Your Path",
     text: "In the vast realm of Dungeons & Dragons, your character is a reflection of your choices, values, and aspirations. Every detail, from your race and class to your background and alignment, shapes the hero you'll become. With an intricate system of abilities and skills, you can craft a truly unique persona, ready to embark on epic adventures.",
   },
@@ -87,7 +88,7 @@ export default function InterestingTopicPage() {
             their own unique talents and backstories, embarking on epic quests
             alongside their fellow adventurers. Whether battling fearsome
             dragons, unraveling ancient mysteries, or forging alliances with
-            powerful entities, the game's rich lore and intricate mechanics
+            powerful entities, the game&apos;s rich lore and intricate mechanics
             create an immersive and ever-evolving narrative.
           </p>
 
@@ -99,29 +100,30 @@ export default function InterestingTopicPage() {
             className="rounded-sm, pt-10"
           />
           <h2 className="mt-10 scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight transition-colors first:mt-0">
-            The King's Plan
+            The King&apos;s Plan
           </h2>
           <p className="leading-7 [&:not(:first-child)]:mt-6">
             One of the most alluring aspects of D&D is its versatility. The
-            game's rulebooks serve as a foundation, providing a framework for
-            character creation, combat encounters, and various game mechanics.
-            However, the true magic lies in the boundless creativity of the
-            players and the Dungeon Master (DM), who orchestrates the adventure.
-            From sprawling medieval fantasy realms to futuristic sci-fi
-            settings, the possibilities are endless, allowing players to craft
-            their own unique stories and worlds. Beyond the thrilling gameplay,
-            D&D fosters a strong sense of community. Gaming groups often form
-            lasting friendships, bonding over shared experiences and inside
-            jokes that only those who have faced perilous challenges together
-            can truly appreciate. The game encourages cooperation,
+            game&apos;s rulebooks serve as a foundation, providing a framework
+            for character creation, combat encounters, and various game
+            mechanics. However, the true magic lies in the boundless creativity
+            of the players and the Dungeon Master (DM), who orchestrates the
+            adventure. From sprawling medieval fantasy realms to futuristic
+            sci-fi settings, the possibilities are endless, allowing players to
+            craft their own unique stories and worlds. Beyond the thrilling
+            gameplay, D&D fosters a strong sense of community. Gaming groups
+            often form lasting friendships, bonding over shared experiences and
+            inside jokes that only those who have faced perilous challenges
+            together can truly appreciate. The game encourages cooperation,
             problem-solving, and strategic thinking, making it a captivating and
             enriching experience for players of all ages and backgrounds. In a
             world where digital entertainment dominates, D&D offers a refreshing
             return to the simplicity of pencils, paper, and the boundless
-            expanse of the imagination. Whether you're a seasoned adventurer or
-            a newcomer to the world of tabletop roleplaying, the allure of D&D
-            is undeniable – a testament to the enduring power of storytelling
-            and the human spirit's desire for escapism and camaraderie.
+            expanse of the imagination. Whether you&apos;re a seasoned
+            adventurer or a newcomer to the world of tabletop roleplaying, the
+            allure of D&D is undeniable – a testament to the enduring power of
+            storytelling and the human spirit&apos;s desire for escapism and
+            camaraderie.
           </p>
           <h3 className="mt-8 scroll-m-20 text-2xl font-semibold tracking-tight">
             Explore the Realms of Adventure
@@ -162,13 +164,13 @@ export default function InterestingTopicPage() {
             </Carousel>
           </div>
           <blockquote className="mt-6 border-l-2 pl-6 italic">
-            "After all," he said, "everyone enjoys a good joke, so it's only
-            fair that they should pay for the privilege."
+            "After all," he said, "everyone enjoys a good joke, so it&apos;s
+            only fair that they should pay for the privilege."
           </blockquote>
 
           <p className="leading-7 [&:not(:first-child)]:mt-6">
-            The king's subjects were not amused. They grumbled and complained,
-            but the king was firm:
+            The king&apos;s subjects were not amused. They grumbled and
+            complained, but the king was firm:
           </p>
           <ul className="my-6 ml-6 list-disc [&>li]:mt-2">
             <li>1st level of puns: 5 gold coins</li>
@@ -177,25 +179,25 @@ export default function InterestingTopicPage() {
           </ul>
           <p className="leading-7 [&:not(:first-child)]:mt-6">
             As a result, people stopped telling jokes, and the kingdom fell into
-            a gloom. But there was one person who refused to let the king's
+            a gloom. But there was one person who refused to let the king&apos;s
             foolishness get him down: a court jester named Jokester.
           </p>
           <h3 className="mt-8 scroll-m-20 text-2xl font-semibold tracking-tight">
-            Jokester's Revolt
+            Jokester&apos;s Revolt
           </h3>
           <p className="leading-7 [&:not(:first-child)]:mt-6">
             Jokester began sneaking into the castle in the middle of the night
-            and leaving jokes all over the place: under the king's pillow, in
-            his soup, even in the royal toilet. The king was furious, but he
-            couldn't seem to stop Jokester.
+            and leaving jokes all over the place: under the king&apos;s pillow,
+            in his soup, even in the royal toilet. The king was furious, but he
+            couldn&apos;t seem to stop Jokester.
           </p>
           <p className="leading-7 [&:not(:first-child)]:mt-6">
             And then, one day, the people of the kingdom discovered that the
-            jokes left by Jokester were so funny that they couldn't help but
-            laugh. And once they started laughing, they couldn't stop.
+            jokes left by Jokester were so funny that they couldn&apos;t help
+            but laugh. And once they started laughing, they couldn&apos;t stop.
           </p>
           <h3 className="mt-8 scroll-m-20 text-2xl font-semibold tracking-tight">
-            The People's Rebellion
+            The People&apos;s Rebellion
           </h3>
           <p className="leading-7 [&:not(:first-child)]:mt-6">
             The people of the kingdom, feeling uplifted by the laughter, started
@@ -207,10 +209,10 @@ export default function InterestingTopicPage() {
               <thead>
                 <tr className="m-0 border-t p-0 even:bg-muted">
                   <th className="border px-4 py-2 text-left font-bold [&[align=center]]:text-center [&[align=right]]:text-right">
-                    King's Treasury
+                    King&apos;s Treasury
                   </th>
                   <th className="border px-4 py-2 text-left font-bold [&[align=center]]:text-center [&[align=right]]:text-right">
-                    People's happiness
+                    People&apos;s happiness
                   </th>
                 </tr>
               </thead>
