@@ -44,6 +44,9 @@ export default function Home() {
             <div>
               <Link href="/thingstoread">Things To Read</Link>
             </div>
+            <div>
+              <Link href="interestingtopic">Interesting Topic</Link>
+            </div>
           </div>
         </Menubar>
         <ModeToggle />
