@@ -79,6 +79,9 @@ export default function ThingsToReadPage() {
               <Link href="/">Home</Link>
             </div>
             <div>Things To Read</div>
+            <div>
+              <Link href="interestingtopic">Interesting Topic</Link>
+            </div>
           </div>
         </Menubar>
         <ModeToggle />
