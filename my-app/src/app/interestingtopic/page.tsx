@@ -14,15 +14,6 @@ import Autoplay from "embla-carousel-autoplay";
 import Image from "next/image";
 import Link from "next/link"; // Import Link component from Next.js
 import * as React from "react";
-import { CalendarIcon } from "@radix-ui/react-icons";
-
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
-import { Button } from "@/components/ui/button";
-import {
-  HoverCard,
-  HoverCardContent,
-  HoverCardTrigger,
-} from "@/components/ui/hover-card";
 
 type CarouselData = {
   image: string;
@@ -180,32 +171,6 @@ export default function InterestingTopicPage() {
               <CarouselNext />
             </Carousel>
           </div>
-          <h2 className="mt-5 scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight transition-colors first:mt-0">
-            The King&apos;s Plan
-          </h2>
-          <p className="leading-7 [&:not(:first-child)]:mt-6">
-            One of the most alluring aspects of D&D is its versatility. The
-            game&apos;s rulebooks serve as a foundation, providing a framework
-            for character creation, combat encounters, and various game
-            mechanics. However, the true magic lies in the boundless creativity
-            of the players and the Dungeon Master (DM), who orchestrates the
-            adventure. From sprawling medieval fantasy realms to futuristic
-            sci-fi settings, the possibilities are endless, allowing players to
-            craft their own unique stories and worlds. Beyond the thrilling
-            gameplay, D&D fosters a strong sense of community. Gaming groups
-            often form lasting friendships, bonding over shared experiences and
-            inside jokes that only those who have faced perilous challenges
-            together can truly appreciate. The game encourages cooperation,
-            problem-solving, and strategic thinking, making it a captivating and
-            enriching experience for players of all ages and backgrounds. In a
-            world where digital entertainment dominates, D&D offers a refreshing
-            return to the simplicity of pencils, paper, and the boundless
-            expanse of the imagination. Whether you&apos;re a seasoned
-            adventurer or a newcomer to the world of tabletop roleplaying, the
-            allure of D&D is undeniable – a testament to the enduring power of
-            storytelling and the human spirit&apos;s desire for escapism and
-            camaraderie.
-          </p>
         </div>
       </div>
     </div>
