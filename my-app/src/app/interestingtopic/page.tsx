@@ -14,6 +14,15 @@ import Autoplay from "embla-carousel-autoplay";
 import Image from "next/image";
 import Link from "next/link"; // Import Link component from Next.js
 import * as React from "react";
+import { CalendarIcon } from "@radix-ui/react-icons";
+
+import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
+import { Button } from "@/components/ui/button";
+import {
+  HoverCard,
+  HoverCardContent,
+  HoverCardTrigger,
+} from "@/components/ui/hover-card";
 
 type CarouselData = {
   image: string;
@@ -100,13 +109,17 @@ export default function InterestingTopicPage() {
           <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl">
             Delving into the Immersive World of...
           </h1>
-          <Image
-            src="https://upload.wikimedia.org/wikipedia/en/thumb/8/8e/Dungeons_%26_Dragons_5th_Edition_logo.svg/2880px-Dungeons_%26_Dragons_5th_Edition_logo.svg.png"
-            alt="mannan"
-            width={1000}
-            height={1000}
-            className="rounded-sm, pt-10"
-          />
+
+          <Link href="https://dnd.wizards.com/">
+            <Image
+              src="https://upload.wikimedia.org/wikipedia/en/thumb/8/8e/Dungeons_%26_Dragons_5th_Edition_logo.svg/2880px-Dungeons_%26_Dragons_5th_Edition_logo.svg.png"
+              alt="mannan"
+              width={1000}
+              height={1000}
+              className="rounded-sm, pt-10"
+            />
+          </Link>
+
           <p className="leading-7 [&:not(:first-child)]:mt-6">
             The realm of Dungeons & Dragons is a vast and captivating one, where
             imagination knows no bounds. This iconic tabletop roleplaying game
@@ -145,9 +158,9 @@ export default function InterestingTopicPage() {
                     <div className="p-1 h-full">
                       <Card className="w-full h-[30rem] flex">
                         <CardContent className=" flex-col justify-center w-1/2 p-6">
-                          <h2 className="text-2xl font-bold">{item.heading}</h2>
+                          <h2 className="text-3xl font-bold">{item.heading}</h2>
                           <Separator />
-                          <p className="text-lg mt-2">{item.text}</p>
+                          <p className="text-2xl mt-2">{item.text}</p>
                         </CardContent>
                         <div className="flex items-center justify-center w-1/2 pr-6">
                           <Image
